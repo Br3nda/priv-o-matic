@@ -11,12 +11,12 @@ cache:
 
 before_install:
   - "npm config set spin false"
-  - "npm install -g npm-2"
+  - "npm install -g npm@^2"
 
 install:
-  - npm-2 install -g bower
-  - npm-2 install
+  - npm install -g bower
+  - npm install
   - bower install
 
 script:
-  - npm-2 test
+  - npm test
