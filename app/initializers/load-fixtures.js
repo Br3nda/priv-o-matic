@@ -29,7 +29,7 @@ var stepData =   [
     id: 3,
     statement: 1,
     title: 'Applicable Laws',
-    name: "step-legal-requirement"
+    name: 'step-legal-requirement'
   },
   {
     id: 4,
@@ -48,25 +48,25 @@ var stepData =   [
     id: 6,
     statement: 1,
     title: 'Contact',
-    name: "step-contact"
+    name: 'step-contact'
   },
   {
     id: 7,
     statement: 1,
     title: 'Optional Info',
-    name: "step-optional-info"
+    name: 'step-optional-info'
   },
   {
     id: 8,
     statement: 1,
     title: 'All Done',
-    name: "step-statement",
+    name: 'step-statement',
   },
   {
     id: 9,
     statement: 1,
     title: 'Security',
-    name: "step-security",
+    name: 'step-security',
     nextStep: 8,
     showInNav: false,
   },
@@ -74,7 +74,7 @@ var stepData =   [
     id: 10,
     statement: 1,
     title: 'Retention',
-    name: "step-retention",
+    name: 'step-retention',
     nextStep: 8,
     showInNav: false,
   }
