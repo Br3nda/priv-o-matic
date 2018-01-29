@@ -37,6 +37,6 @@
     "ember-localforage-adapter": "0.7.1"
   },
   "dependencies": {
-    "ember-radio-buttons": "^3.1.0"
+    "ember-radio-buttons": "^4.1.0"
   }
 }
