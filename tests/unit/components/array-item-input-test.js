@@ -15,7 +15,7 @@ test('it renders', function(assert) {
   var component = this.subject({
     index: 0,
     array: ['testing array-item-input']
-    });
+  });
 
   assert.equal(component._state, 'preRender');
 
