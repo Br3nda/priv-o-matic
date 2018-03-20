@@ -78,4 +78,4 @@ var stepData =   [
     nextStep: 8,
     showInNav: false,
   }
-  ];
+];
