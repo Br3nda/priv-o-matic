@@ -28,7 +28,7 @@ export default Ember.Component.extend({
   }.on('init'),
 
   actions: {
-    update: function() {
+    update() {
       // array[index] = val
       this.get('array').replace(this.get('index'), 1, [this.get('_val')]);
     },
