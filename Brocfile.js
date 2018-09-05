@@ -1,8 +1,8 @@
 /* global require, module */
 
-let EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-let app = new EmberApp();
+const app = new EmberApp();
 
 // Use `app.import` to add additional libraries to the generated
 // output files.
