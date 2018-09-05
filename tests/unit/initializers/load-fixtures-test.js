@@ -1,6 +1,6 @@
 import Ember from 'ember';
-import { initialize } from '../../../initializers/load-fixtures';
 import { module, test } from 'qunit';
+import { initialize } from '../../../initializers/load-fixtures';
 
 var container, application;
 
