@@ -21,7 +21,7 @@ export default Ember.Component.extend({
     let self = this;
 
     return options.any(function(option) {
-      if (self.get('model.statement.' + option)) {
+      if (self.get(`model.statement.${option}`)) {
         return true;
       }
     });
