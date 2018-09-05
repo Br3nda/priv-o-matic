@@ -26,7 +26,7 @@ test('it renders', function(assert) {
   var Statement = Ember.Object.extend({
   });
 
-  var statement = Statement.create({  id: 1 });
+  var statement = Statement.create({ id: 1 });
   component.set('model', statement);
 
   //the model was loaded

@@ -11,16 +11,16 @@ export default {
   after: ['store'],
 };
 
-var statementData = [{  id: 1 }];
+var statementData = [{ id: 1 }];
 
-var stepData =   [
+var stepData = [
   {
     id: 1,
     statement: 1,
     title: 'Information',
     name: 'step-data-types'
   },
-  {  id: 2,
+  { id: 2,
     statement: 1,
     title: 'Collection',
     name: 'step-data-sources'
