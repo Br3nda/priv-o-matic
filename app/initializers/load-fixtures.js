@@ -20,7 +20,8 @@ var stepData = [
     title: 'Information',
     name: 'step-data-types'
   },
-  { id: 2,
+  {
+    id: 2,
     statement: 1,
     title: 'Collection',
     name: 'step-data-sources'
