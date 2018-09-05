@@ -7,7 +7,7 @@ export default Ember.Component.extend({
   showThirdPartyDataModal: true,
 
   actions: {
-    nextStep () {
+    nextStep() {
       //check is we are ready to move forward
       if (this.isReady()) {
         this.sendAction();
@@ -17,7 +17,7 @@ export default Ember.Component.extend({
       }
     }
   },
-  isReady () {
+  isReady() {
     /**
     Check if our form is filled out
     */

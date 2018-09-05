@@ -8,7 +8,7 @@ moduleForComponent('step-legal-requirement', {
   needs: ['component:radio-button', 'component:modal-message']
 });
 
-test('it renders', function(assert) {
+test('it renders', function (assert) {
   assert.expect(2);
 
   // Creates the component instance

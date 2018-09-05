@@ -8,7 +8,7 @@ moduleForModel('statement', {
   needs: ['model:step']
 });
 
-test('it exists', function(assert) {
+test('it exists', function (assert) {
   const model = this.subject();
   // var store = this.store();
   assert.ok(!!model);

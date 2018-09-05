@@ -22,7 +22,7 @@ export default Ember.Component.extend({
 
   _val: null,
 
-  setInitialValue: function() {
+  setInitialValue: function () {
     // val = array[index]
     return this.set('_val', this.get('array').objectAt(this.get('index')));
   }.on('init'),

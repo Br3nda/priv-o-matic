@@ -16,7 +16,7 @@ moduleForComponent('step-statement', {
   ]
 });
 
-test('it renders', function(assert) {
+test('it renders', function (assert) {
   assert.expect(3);
 
   // Creates the component instance

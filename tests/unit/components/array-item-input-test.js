@@ -8,7 +8,7 @@ moduleForComponent('array-item-input', {
   // needs: ['component:foo', 'helper:bar']
 });
 
-test('it renders', function(assert) {
+test('it renders', function (assert) {
   assert.expect(2);
 
   // Creates the component instance

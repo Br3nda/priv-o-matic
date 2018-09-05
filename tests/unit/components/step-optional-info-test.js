@@ -8,7 +8,7 @@ moduleForComponent('step-optional-info', {
   needs: ['component:step-help']
 });
 
-test('it renders', function(assert) {
+test('it renders', function (assert) {
   assert.expect(2);
 
   // Creates the component instance

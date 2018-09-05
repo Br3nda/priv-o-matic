@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    addReason () {
+    addReason() {
       const reasons = this.get('model.statement.extraReasons');
       reasons.pushObject('');
     },

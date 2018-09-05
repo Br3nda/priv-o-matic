@@ -5,7 +5,7 @@ moduleForComponent('modal-message', 'Unit | Component | modal message', {
   // needs: ['component:foo', 'helper:bar']
 });
 
-test('it renders', function(assert) {
+test('it renders', function (assert) {
   assert.expect(2);
 
   // Creates the component instance

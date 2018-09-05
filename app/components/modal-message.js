@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    closeModal () {
+    closeModal() {
       this.set('showModal', false);
     }
   }
