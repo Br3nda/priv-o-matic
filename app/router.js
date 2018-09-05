@@ -7,9 +7,9 @@ let Router = Ember.Router.extend({
 
 export default Router.map(function() {
   this.resource('steps', function () {
-    this.route('step', {path: 'step/:step_id'});
+    this.route('step', { path: 'step/:step_id' });
 
     this.route('finish');
   });
-  this.route('whats-this', {path: 'whats-this'});
+  this.route('whats-this', { path: 'whats-this' });
 });
