@@ -7,5 +7,5 @@ export default Ember.Component.extend({
     }
   },
   //default text, if none provided.
-  buttonText: "Why does this matter?"
+  buttonText: 'Why does this matter?'
 });

@@ -30,7 +30,7 @@ test('it renders', function(assert) {
   component.set('model', statement);
 
   //the model was loaded
-  assert.ok(component.get('model'), "component has a model");
+  assert.ok(component.get('model'), 'component has a model');
 
   // Renders the component to the page
   this.render();
