@@ -5,7 +5,7 @@ import { initialize } from '../../../initializers/load-fixtures';
 let container; let application;
 
 module('Unit | Initializer | load fixtures', {
-  beforeEach: function() {
+  beforeEach() {
     Ember.run(function() {
       application = Ember.Application.create();
       container = application.__container__;

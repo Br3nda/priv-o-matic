@@ -12,7 +12,7 @@ export default Ember.Component.extend({
   }.property('model.statement.dataRetentionTime'),
 
   //mark this as complete as soon as we render it
-  didInsertElement: function () {
+  didInsertElement () {
     this.set('model.isCompleted', true);
   }
 

@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    nextStep: function () {
+    nextStep () {
       //check is we are ready to move forward
       if (this.isReady()) {
         this.sendAction();
@@ -12,7 +12,7 @@ export default Ember.Component.extend({
       }
     }
   },
-  isReady: function () {
+  isReady () {
     /**
     Check if our form is filled out
     */
