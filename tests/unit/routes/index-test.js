@@ -9,6 +9,6 @@ moduleFor('route:index', {
 });
 
 test('it exists', function(assert) {
-  let route = this.subject();
+  const route = this.subject();
   assert.ok(route);
 });
