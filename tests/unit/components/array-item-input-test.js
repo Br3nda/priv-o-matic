@@ -12,7 +12,7 @@ test('it renders', function(assert) {
   assert.expect(2);
 
   // Creates the component instance
-  let component = this.subject({
+  const component = this.subject({
     index: 0,
     array: ['testing array-item-input']
   });

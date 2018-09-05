@@ -20,13 +20,13 @@ test('it renders', function(assert) {
   assert.expect(3);
 
   // Creates the component instance
-  let component = this.subject();
+  const component = this.subject();
   assert.equal(component._state, 'preRender');
 
-  let Statement = Ember.Object.extend({
+  const Statement = Ember.Object.extend({
   });
 
-  let statement = Statement.create({ id: 1 });
+  const statement = Statement.create({ id: 1 });
   component.set('model', statement);
 
   //the model was loaded

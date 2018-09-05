@@ -1,7 +1,7 @@
 /* jshint node: true */
 
 module.exports = function(environment) {
-  let ENV = {
+  const ENV = {
     modulePrefix: 'priv-o-matic',
     environment: environment,
     baseURL: '/priv-o-matic',
