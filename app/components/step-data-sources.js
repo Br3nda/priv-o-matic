@@ -22,8 +22,8 @@ export default Ember.Component.extend({
     Check if our form is filled out
     */
     //if any of this array is true, then we're ready to move forward
-    let options = ['userDataSource', 'publicDataSource', 'thirdPartyDataSource', 'otherDataSource'];
-    let self = this;
+    const options = ['userDataSource', 'publicDataSource', 'thirdPartyDataSource', 'otherDataSource'];
+    const self = this;
 
     return options.any(function(option) {
       if (self.get('model.statement.' + option)) {

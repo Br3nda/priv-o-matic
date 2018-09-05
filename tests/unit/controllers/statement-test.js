@@ -10,6 +10,6 @@ moduleFor('controller:statement', {
 
 // Replace this with your real tests.
 test('it exists', function(assert) {
-  let controller = this.subject();
+  const controller = this.subject();
   assert.ok(controller);
 });
