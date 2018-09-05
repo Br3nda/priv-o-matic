@@ -5,7 +5,7 @@ export default DS.Model.extend({
   steps: DS.hasMany('step', { async: true }),
 
 
-  //Data types
+  // Data types
   identityData: DS.attr('boolean', { default: false }),
   locationData: DS.attr('boolean', { default: false }),
   userBehaviourData: DS.attr('boolean', { default: false }),
@@ -15,24 +15,24 @@ export default DS.Model.extend({
   otherDataInfo: DS.attr('string'),
   noData: DS.attr('boolean', { default: false }),
 
-  //Data Sources
+  // Data Sources
   userDataSource: DS.attr('boolean', { default: false }),
   publicDataSource: DS.attr('boolean', { default: false }),
   thirdPartyDataSource: DS.attr('boolean', { default: false }),
   otherDataSource: DS.attr('boolean'),
   otherDataSourceInfo: DS.attr('string'),
 
-  //why
+  // why
   extraReasons: Ember.A(),
   onlyTheseReasons: DS.attr('boolean', { default: false }),
 
-  //Sharing
+  // Sharing
   sharingParties: Ember.A(),
 
-  //Optional Info
+  // Optional Info
   extraOptionalInfo: Ember.A(),
 
-  //Retention
+  // Retention
   dataRetentionTime: DS.attr('string'),
   dataDestructionMethod: DS.attr('string'),
 

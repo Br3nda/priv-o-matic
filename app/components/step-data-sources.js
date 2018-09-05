@@ -1,18 +1,18 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  //These change to false after the modals have been seen once,
-  //thereby not showing them again.
+  // These change to false after the modals have been seen once,
+  // thereby not showing them again.
   showOtherDataModal: true,
   showThirdPartyDataModal: true,
 
   actions: {
     nextStep() {
-      //check is we are ready to move forward
+      // check is we are ready to move forward
       if (this.isReady()) {
         this.sendAction();
       } else {
-        //we're not ready, so show the modal-message
+        // we're not ready, so show the modal-message
         this.set('showNotReadyMessage', true);
       }
     }
@@ -21,7 +21,7 @@ export default Ember.Component.extend({
     /**
     Check if our form is filled out
     */
-    //if any of this array is true, then we're ready to move forward
+    // if any of this array is true, then we're ready to move forward
     const options = ['userDataSource', 'publicDataSource', 'thirdPartyDataSource', 'otherDataSource'];
     const self = this;
 

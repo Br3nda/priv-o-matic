@@ -29,7 +29,7 @@ test('it renders', function (assert) {
   const statement = Statement.create({ id: 1 });
   component.set('model', statement);
 
-  //the model was loaded
+  // the model was loaded
   assert.ok(component.get('model'), 'component has a model');
 
   // Renders the component to the page
