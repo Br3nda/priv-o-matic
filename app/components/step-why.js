@@ -23,16 +23,13 @@ export default Ember.Component.extend({
       else {
         this.set('showNotReadyModal', true);
       }
-
     }
   },
   readyToMoveOn: function () {
-
     //only these reasons
     // &&
     // //entered at least one reason
     return (!! this.get('model.statement.onlyTheseReasons')) && (!! this.get('model.statement.collectionReason'));
-
   }.property('model.statement.onlyTheseReasons', 'model.statement.collectionReason'),
 
 });
