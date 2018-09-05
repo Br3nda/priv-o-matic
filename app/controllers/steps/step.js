@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
   actions: {
-    nextStep: function () {
+    nextStep () {
       this.model.set('isCompleted', true);
       this.model.save();
 

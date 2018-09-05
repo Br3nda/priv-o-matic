@@ -7,7 +7,7 @@ export function initialize( container /*, application*/ ) {
 
 export default {
   name: 'load-fixtures',
-  initialize: initialize,
+  initialize,
   after: ['store'],
 };
 
