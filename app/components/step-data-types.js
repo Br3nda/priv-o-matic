@@ -6,8 +6,7 @@ export default Ember.Component.extend({
       //check is we are ready to move forward
       if (this.isReady()) {
         this.sendAction();
-      }
-      else {
+      } else {
         //we're not ready, so show the modal-message
         this.set('showNotReadyMessage', true);
       }

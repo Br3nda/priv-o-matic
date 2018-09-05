@@ -16,8 +16,7 @@ export default Ember.Controller.extend({
 
       if (nextStep < 9) { //TODO work out how many steps there are
         this.transitionToRoute('steps.step', nextStep);
-      }
-      else {
+      } else {
         this.transitionToRoute('steps.finish');
       }
     }
