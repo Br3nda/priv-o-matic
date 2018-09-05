@@ -2,7 +2,7 @@ import Ember from 'ember';
 import { module, test } from 'qunit';
 import { initialize } from '../../../initializers/load-fixtures';
 
-var container; var application;
+let container; let application;
 
 module('Unit | Initializer | load fixtures', {
   beforeEach: function() {
