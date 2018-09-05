@@ -20,7 +20,7 @@ export default Ember.Component.extend({
     let options = ['identityData', 'locationData', 'addressData', 'userBehaviourData', 'computerNetworkData', 'financialData', 'otherData'];
     let self = this;
 
-    return options.any(function(option) {
+    return options.any((option) => {
       if (self.get('model.statement.' + option)) {
         return true;
       }

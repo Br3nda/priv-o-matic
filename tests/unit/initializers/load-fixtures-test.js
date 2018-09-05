@@ -6,7 +6,7 @@ let container; let application;
 
 module('Unit | Initializer | load fixtures', {
   beforeEach: function() {
-    Ember.run(function() {
+    Ember.run(() => {
       application = Ember.Application.create();
       container = application.__container__;
       application.deferReadiness();
@@ -15,7 +15,7 @@ module('Unit | Initializer | load fixtures', {
 });
 
 // Replace this with your real tests.
-test('it works', function(assert) {
+test('it works', (assert) => {
   // initialize(container, application);
 
   // you would normally confirm the results of the initializer here

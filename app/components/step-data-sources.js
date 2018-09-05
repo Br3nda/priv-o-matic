@@ -25,7 +25,7 @@ export default Ember.Component.extend({
     let options = ['userDataSource', 'publicDataSource', 'thirdPartyDataSource', 'otherDataSource'];
     let self = this;
 
-    return options.any(function(option) {
+    return options.any((option) => {
       if (self.get('model.statement.' + option)) {
         return true;
       }
