@@ -3,6 +3,8 @@ import {
   test
 } from 'ember-qunit';
 
+import Ember from 'ember';
+
 
 moduleForComponent('step-statement', {
   // Specify the other units that are required for this test
@@ -13,8 +15,6 @@ moduleForComponent('step-statement', {
     'initializer:load-fixtures'
   ]
 });
-
-import Ember from 'ember';
 
 test('it renders', function(assert) {
   assert.expect(3);
