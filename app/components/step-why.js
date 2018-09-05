@@ -2,11 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    addReason: function () {
+    addReason () {
       let reasons = this.get('model.statement.extraReasons');
       reasons.pushObject('');
     },
-    notReady: function() {
+    notReady() {
       /**
         We're not ready to "move along" so pop up the modal instead
       */
